@@ -6396,34 +6396,6 @@
         },
         "available": false
     },
-    "turbovision_xl": {
-        "name": "turbovision_xl",
-        "baseline": "stable_diffusion_xl_turbo",
-        "type": "safetensors",
-        "inpainting": false,
-        "description": "Super fast generations at 'normal' XL resolutions with much better quality than base SDXL Turbo!",
-        "version": "4.3.1",
-        "style": "generalist",
-        "homepage": "https://civitai.com/models/215418",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "turbovisionxl_v431Bakedvae.safetensors"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "turbovisionxl_v431Bakedvae.safetensors",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/273102"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 6936231936
-    },
     "Chroma-fp8-scaled": {
         "name": "Chroma-fp8-scaled",
         "baseline": "custom",
