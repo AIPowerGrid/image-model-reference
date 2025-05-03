@@ -1583,47 +1583,6 @@
         "available": false,
         "size_on_disk_bytes": 4265327916
     },
-    "Sci-Fi Diffusion": {
-        "name": "Sci-Fi Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A Sci-Fi themed model trained on SD 1.5 with a 26K+ image dataset",
-        "version": "1.0",
-        "style": "generalist",
-        "trigger": [
-            "Sci-Fi",
-            "caspian Sci-Fi",
-            "Star Citizen",
-            "Star Atlas",
-            "Spaceship",
-            "Render"
-        ],
-        "homepage": "https://huggingface.co/Corruptlake/Sci-Fi-Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Sci-Fi_Diffusion.ckpt",
-                    "md5sum": "64eb04eecdd6edd9af1b11d8972515a3",
-                    "sha256sum": "cd73c52cd00b9b40cad916cd1ea6f205146ece332dbeba21733902cc8c351f1b"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Sci-Fi_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Sci-Fi_Diffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132910547
-    },
     "PPP": {
         "name": "PPP",
         "baseline": "stable diffusion 1",
@@ -5524,39 +5483,6 @@
         ],
         "size_on_disk_bytes": 6776583201
     },
-    "Anime Illust Diffusion XL": {
-        "name": "Anime Illust Diffusion XL",
-        "baseline": "stable_diffusion_xl",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Anime Illustration Design XL, or AIDXL, is a model dedicated to generating stylized anime illustrations. It has over 800 (with more and more updates) built-in illustration styles, which are triggered by specific trigger words (see Appendix A). Please use AIDXL negative embedding model to boost generation quality (see Suggested Resources).",
-        "version": "0.71",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/124189",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "anime_illust_diffusion_xl.safetensors",
-                    "sha256sum": "1813371de528253288eb8de8b2cc3674c79b6fc854ec7370583bd528706646d1"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "anime_illust_diffusion_xl.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/anime_illust_diffusion_xl.safetensors?download=true"
-                }
-            ]
-        },
-        "features_not_supported": [
-            "hires_fix",
-            "inpainting",
-            "controlnet"
-        ],
-        "size_on_disk_bytes": 6776583201
-    },
     "Juggernaut XL": {
         "name": "Juggernaut XL",
         "baseline": "stable_diffusion_xl",
@@ -6456,7 +6382,8 @@
         "config": {
             "files": [
                 {
-                    "path": "hidream_i1_dev.safetensors"
+                    "path": "hidream_i1_dev.safetensors",
+                    "sha256sum": "9a372d7384d56e34a8cc7fd77a0fa3d26d6b75d82c7582fd5347e2fd9e6f8664"
                 }
             ],
             "download": [
@@ -6511,7 +6438,8 @@
         "config": {
             "files": [
                 {
-                    "path": "chroma_fp8_scaled.safetensors"
+                    "path": "chroma_fp8_scaled.safetensors",
+                    "sha256sum": "34fbe142791d8044bd53191fc9eb33791364e9eb358900e5f1cc9c6a73fc5c1c"
                 }
             ],
             "download": [
