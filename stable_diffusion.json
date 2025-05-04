@@ -6370,7 +6370,7 @@
     },
     "HiDream-I1-Dev": {
         "name": "HiDream-I1-Dev",
-        "baseline": "flux",
+        "baseline": "flux_1",
         "type": "safetensors",
         "inpainting": false,
         "description": "HiDream-I1 is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within seconds.",
@@ -6398,7 +6398,7 @@
     },
     "Chroma-fp8-scaled": {
         "name": "Chroma-fp8-scaled",
-        "baseline": "custom",
+        "baseline": "flux_1",
         "type": "safetensors",
         "inpainting": false,
         "description": "Scaled FP8 safetensors variant of Lodestone Rock's Chroma model... leveraging the full dynamic range of FP8 (-448 to 448).",
