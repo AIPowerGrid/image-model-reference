@@ -988,11 +988,22 @@
     "nsfw": false,
     "download_all": false,
     "config": {
-        "files": [],
-        "download": []
-    },
+            "files": [
+                {
+                    "path": "DreamShaperXL_Turbo_v2.safetensors",
+                    "sha256sum": "4726d3bab1876f5c23734c871c47901fde305115e15fbfa3f33354ac45b11c67"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "DreamShaperXL_Turbo_v2.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo/resolve/main/DreamShaperXL_Turbo_v2.safetensors"
+                }
+            ]
+        },
     "available": true,
-    "size_on_disk_bytes": null
+    "size_on_disk_bytes": 7451768258
     },
     "Eimis Anime Diffusion": {
         "name": "Eimis Anime Diffusion",
