@@ -974,6 +974,37 @@
         "available": false,
         "size_on_disk_bytes": 7703657858
     },
+    {
+    "name": "Dreamshaper XL v2 Turbo",
+    "baseline": "stable-diffusion-xl-base-1.0",
+    "type": "ckpt",
+    "inpainting": false,
+    "description": "A Stable Diffusion model fine-tuned for generating detailed, realistic, and styled images with less complex prompts. It supports art, photography, and anime styles.",
+    "tags": ["anime"],
+    "showcases": ["https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/eimis_anime_diffusion/01_bigdawg.webp"],
+    "version": "v2",
+    "style": "realistic, artistic, anime",
+    "homepage": "https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo",
+    "nsfw": false,
+    "download_all": false,
+    "config": {
+            "files": [
+                {
+                    "path": "DreamShaperXL_Turbo_v2.safetensors",
+                    "sha256sum": "4726d3bab1876f5c23734c871c47901fde305115e15fbfa3f33354ac45b11c67"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "DreamShaperXL_Turbo_v2.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo/resolve/main/DreamShaperXL_Turbo_v2.safetensors"
+                }
+            ]
+        },
+    "available": true,
+    "size_on_disk_bytes": 7451768258
+    },
     "Eimis Anime Diffusion": {
         "name": "Eimis Anime Diffusion",
         "baseline": "stable diffusion 1",
